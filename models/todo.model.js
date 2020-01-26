@@ -2,7 +2,7 @@
 
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
-
+/*Create todo schema */
 let Todo = new Schema({
 	todo_description: {
 		type: String
